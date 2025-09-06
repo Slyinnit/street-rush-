@@ -1,0 +1,54 @@
+/* Reset some defaults */
+body, html {
+  margin: 0;
+    padding: 0;
+      height: 100%;
+        font-family: Arial, sans-serif;
+          background: linear-gradient(to bottom, #111, #333);
+            color: white;
+              text-align: center;
+              }
+
+              /* Game container */
+              #gameContainer {
+                display: flex;
+                  justify-content: center;
+                    align-items: center;
+                      height: 100vh;
+                      }
+
+                      canvas {
+                        background: #222;
+                          border: 3px solid #fff;
+                            border-radius: 12px;
+                              box-shadow: 0 0 20px rgba(0,0,0,0.8);
+                              }
+
+                              /* Buttons */
+                              button {
+                                padding: 12px 24px;
+                                  margin: 10px;
+                                    border: none;
+                                      border-radius: 8px;
+                                        background: #ff5722;
+                                          color: white;
+                                            font-size: 16px;
+                                              font-weight: bold;
+                                                cursor: pointer;
+                                                  transition: background 0.3s;
+                                                  }
+
+                                                  button:hover {
+                                                    background: #e64a19;
+                                                    }
+
+                                                    /* HUD (score, coins, etc.) */
+                                                    #hud {
+                                                      position: absolute;
+                                                        top: 20px;
+                                                          left: 20px;
+                                                            background: rgba(0,0,0,0.6);
+                                                              padding: 10px 15px;
+                                                                border-radius: 8px;
+                                                                  font-size: 18px;
+                                                                  }
